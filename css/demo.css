@@ -1,0 +1,85 @@
+    * {
+        margin: 0px auto;
+        padding: 0px;
+    }
+    
+    .wrapper {
+        height: 800px;
+        width: 1089px;
+        background-color: rgb(138, 211, 211);
+    }
+    
+    .header {
+        height: 150px;
+        width: 1089px;
+        background-color: aquamarine;
+    }
+    
+    .iuh {
+        height: 150px;
+        width: 1089px;
+    }
+    
+    .nav {
+        height: 50px;
+        width: 1089px;
+        background-color: rgb(77, 179, 30);
+        border-bottom: 1px solid red;
+        position: relative;
+    }
+    
+    .menu li {
+        height: 50px;
+        width: 150px;
+        background-color: rgb(77, 179, 30);
+        float: left;
+        text-indent: 20px;
+        line-height: 50px;
+        list-style-type: none;
+        position: relative;
+    }
+    
+    .menu li:hover {
+        background-color: rgb(223, 40, 230);
+    }
+    
+    li a {
+        text-decoration: none;
+    }
+    
+    li:hover>a {
+        font-style: italic;
+        color: aqua;
+    }
+    
+    .menu li .sub-menu {
+        display: none;
+        position: absolute;
+    }
+    
+    .menu li:hover>.sub-menu {
+        display: block;
+    }
+    
+    .menu li .sub-menu li .sub-menu {
+        display: none;
+    }
+    
+    .menu li .sub-menu li:hover>.sub-menu {
+        display: block;
+        top: 0px;
+        left: 150px;
+    }
+    
+    .content {
+        height: 450px;
+        width: 1089px;
+        background-color: rgb(10, 202, 138);
+    }
+    
+    .footer {
+        height: 450px;
+        width: 1089px;
+        background-color: rgb(91, 117, 108);
+        position: relative;
+    }
